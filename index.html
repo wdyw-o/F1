@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>F1 (2025) — Официальный фан-сайт фильма</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@300;500;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Шапка -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#home" class="logo">F<span>1</span></a>
+      <nav class="nav">
+        <a href="#about" class="nav__link">О фильме</a>
+        <a href="#cast" class="nav__link">Актёры</a>
+        <a href="#facts" class="nav__link">Факты</a>
+      </nav>
+      <button class="burger" aria-label="Меню">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <p class="hero__tag">Новый фильм 2025</p>
+      <h1 class="hero__title">F1<sup>®</sup></h1>
+      <p class="hero__subtitle">Скорость. Риск. Последний шанс.</p>
+      <div class="hero__meta">
+        <span>⭐ 7.8</span>
+        <span>🎬 Боевик / Драма / Спорт</span>
+        <span>⏱ 155 мин</span>
+      </div>
+      <div class="hero__buttons">
+        <a href="https://vkvideo.ru/video-220787057_456360067" target="_blank" rel="noopener noreferrer" class="btn btn--primary">▶ Смотреть трейлер</a>
+        <a href="#about" class="btn btn--ghost">Подробнее</a>
+      </div>
+    </div>
+    <div class="hero__scroll">↓</div>
+  </section>
+
+  <!-- О фильме -->
+  <section class="section about" id="about">
+    <div class="container">
+      <h2 class="section__title">О фильме</h2>
+      <div class="about__grid">
+        <div class="about__poster">
+          <div class="poster">
+            <div class="poster__badge">2025</div>
+          </div>
+        </div>
+        <div class="about__text">
+          <p>
+            <b>«F1»</b> — масштабный спортивный блокбастер от режиссёра <b>Джозефа Косински</b>
+            («Топ Ган: Мэверик») и продюсера <b>Джерри Брукхаймера</b>. Фильм снят при
+            поддержке настоящих гонщиков Формулы-1 и показывает закулисье самых быстрых
+            соревнований планеты.
+          </p>
+          <p>
+            В центре сюжета — <b>Сонни Хейс</b>, бывший вундеркинд автоспорта, которого
+            жизнь отбросила на обочину. Тридцать лет спустя его вызывает старый друг
+            Рубен Сервантес — владелец вымирающей команды <b>APXGP</b>. У Сони один шанс:
+            вернуться на трассу, стать напарником молодого таланта Джошуа Пирса и
+            вытащить команду из кризиса.
+          </p>
+          <div class="about__info">
+            <div><span>Режиссёр:</span> Джозеф Косински</div>
+            <div><span>Сценарий:</span> Эрен Крюгер</div>
+            <div><span>Продюсеры:</span> Джерри Брукхаймер, Брэд Питт</div>
+            <div><span>Премьера:</span> 27 июня 2025</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Актёры -->
+  <section class="section cast" id="cast">
+    <div class="container">
+      <h2 class="section__title">В главных ролях</h2>
+      <div class="cast__grid">
+        <article class="card">
+          <div class="card__avatar" style="background:#e10600;">BP</div>
+          <h3>Брэд Питт</h3>
+          <p class="card__role">Сонни Хейс</p>
+          <p>Бывший вундеркинд Формулы-2, получивший второй шанс в большом спорте.</p>
+        </article>
+        <article class="card">
+          <div class="card__avatar" style="background:#1e3a8a;">DI</div>
+          <h3>Дамион Идрис</h3>
+          <p class="card__role">Джошуа Пирс</p>
+          <p>Молодой и амбициозный напарник Сони, звезда будущего автоспорта.</p>
+        </article>
+        <article class="card">
+          <div class="card__avatar" style="background:#f59e0b;">JB</div>
+          <h3>Хавьер Бардем</h3>
+          <p class="card__role">Рубен Сервантес</p>
+          <p>Владелец команды APXGP и старый друг главного героя.</p>
+        </article>
+        <article class="card">
+          <div class="card__avatar" style="background:#10b981;">KC</div>
+          <h3>Керри Кондон</h3>
+          <p class="card__role">Кейт Маккенна</p>
+          <p>Технический директор команды, отвечающая за стратегию и болид.</p>
+        </article>
+        <article class="card">
+          <div class="card__avatar" style="background:#8b5cf6;">TM</div>
+          <h3>Тобиас Мензис</h3>
+          <p class="card__role">Питер Бэннинг</p>
+          <p>Соперник и конкурент внутри паддока Формулы-1.</p>
+        </article>
+        <article class="card">
+          <div class="card__avatar" style="background:#06b6d4;">KB</div>
+          <h3>Ким Бодниа</h3>
+          <p class="card__role">Каспер Сми́т</p>
+          <p>Опытный инженер и стратег команды APXGP.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Факты / статистика -->
+  <section class="section facts" id="facts">
+    <div class="container">
+      <h2 class="section__title">Цифры и факты</h2>
+      <div class="facts__grid">
+        <div class="fact">
+          <div class="fact__num" data-target="370">0</div>
+          <div class="fact__label">км/ч — максимальная скорость болида</div>
+        </div>
+        <div class="fact">
+          <div class="fact__num" data-target="24">0</div>
+          <div class="fact__label">гонки сняты на реальных этапах F1</div>
+        </div>
+        <div class="fact">
+          <div class="fact__num" data-target="200">0</div>
+          <div class="fact__label">млн $ — бюджет производства</div>
+        </div>
+        <div class="fact">
+          <div class="fact__num" data-target="155">0</div>
+          <div class="fact__label">минут чистого адреналина</div>
+        </div>
+      </div>
+
+      <div class="timeline">
+        <h3 class="timeline__title">Интересные факты</h3>
+        <ul class="timeline__list">
+          <li>🏎️ Съёмки проходили на реальных Гран-при: в Сильверстоуне, Монце, Лас-Вегасе и Абу-Даби.</li>
+          <li>🎥 Брэд Питт лично выполнял многие трюки за рулём модифицированных болидов Формулы-2.</li>
+          <li>🎧 Саундтрек записан при участии Ханса Циммера и группы U2.</li>
+          <li>🏆 Льюис Хэмилтон выступил консультантом проекта через свою продюсерскую компанию.</li>
+          <li>💥 Все сцены гонок сняты камерами, установленными прямо на настоящих болидах.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Интерактив: Симулятор реакции + Квиз -->
+<section class="section interactive" id="interactive">
+  <div class="container">
+    <h2 class="section__title">Проверь себя</h2>
+
+    <div class="interactive__tabs">
+      <button class="tab-btn active" data-tab="reaction">🏁 Реакция на старт</button>
+      <button class="tab-btn" data-tab="quiz">🧠 Квиз по фильму</button>
+    </div>
+
+    <!-- Симулятор реакции -->
+    <div class="tab-content active" id="tab-reaction">
+      <div class="reaction-box">
+        <div class="reaction__lights" id="lights">
+          <div class="light"></div>
+          <div class="light"></div>
+          <div class="light"></div>
+          <div class="light"></div>
+          <div class="light"></div>
+        </div>
+        <div class="reaction__message" id="reactionMsg">
+          Нажми «Старт» и будь готов!<br>
+          Как только огни погаснут — кликай по черному блоку как можно быстрее.
+        </div>
+        <div class="reaction__result" id="reactionResult"></div>
+        <button class="btn btn--primary" id="startReaction">Старт</button>
+      </div>
+    </div>
+
+    <!-- Квиз -->
+    <div class="tab-content" id="tab-quiz">
+      <div class="quiz-box" id="quizBox">
+        <div class="quiz__progress">
+          <span id="quizStep">Вопрос 1 из 5</span>
+          <div class="progress-bar"><div class="progress-fill" id="progressFill"></div></div>
+        </div>
+        <h3 class="quiz__question" id="quizQuestion"></h3>
+        <div class="quiz__options" id="quizOptions"></div>
+        <div class="quiz__result" id="quizResult"></div>
+        <button class="btn btn--primary" id="restartQuiz" style="display:none;">Пройти ещё раз</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Футер -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 Фан-сайт фильма «F1». Все права на фильм принадлежат Warner Bros. Pictures, Apple Original Films и Formula 1.</p>
+      <p class="footer__small">Сделано с ❤️ для поклонников автоспорта</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
